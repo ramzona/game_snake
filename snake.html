@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Змейка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍 Змейка</h1>
+  <p>Управление: стрелками на клавиатуре</p>
+
+  <div class="controls">
+    <label for="difficulty">Сложность:</label>
+    <select id="difficulty">
+      <option value="200">Легко</option>
+      <option value="120" selected>Средне</option>
+      <option value="70">Сложно</option>
+    </select>
+    <button id="restart">🔁 Начать заново</button>
+    <span id="score">Очки: 0</span>
+  </div>
+
+  <div id="game"></div>
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
